@@ -1,1 +1,1 @@
-require('./src/index');
+require('./client/components/index.js');
