@@ -1,4 +1,4 @@
-import RootComponent from './client/components/App';
+import RootComponent from './client/components/Todo';
 import createStore from './client/store';
 
 if (module.hot) {

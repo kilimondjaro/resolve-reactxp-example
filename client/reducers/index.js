@@ -1,1 +1,3 @@
-export default state => state;
+import { createViewModelsReducer } from 'resolve-redux';
+
+export default createViewModelsReducer();

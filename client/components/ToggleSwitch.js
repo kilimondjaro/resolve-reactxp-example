@@ -22,8 +22,8 @@ const _styles = {
         flexDirection: 'row',
         borderRadius: 15,
         marginVertical: 8,
-        height: 30,
-        width: 50,
+        height: 20,
+        width: 40,
         backgroundColor: '#ddd'
     }),
     toggleSwitchBackground: RX.Styles.createViewStyle({
@@ -36,8 +36,8 @@ const _styles = {
     }),
     toggleKnob: RX.Styles.createViewStyle({
         top: 2,
-        height: 26,
-        width: 26,
+        height: 16,
+        width: 16,
         borderRadius: 13,
         backgroundColor: 'white'
     })
@@ -65,7 +65,7 @@ export default class ToggleSwitch extends RX.Component {
         this._toggleColorAnimationValue = RX.Animated.createValue(this.props.value ? 1 : 0);
         this._toggleColorAnimationStyle = RX.Styles.createAnimatedTextInputStyle({
             backgroundColor: RX.Animated.interpolate(this._toggleColorAnimationValue,
-                [0, 1], ['#66f', '#ddd'])
+                [0, 1], ['#ddd', '#66f'])
         });
         this._handleClick = this._handleClick.bind(this);
     }
