@@ -2,7 +2,8 @@ import React from 'react';
 import { createStore } from 'redux';
 
 // eslint-disable-next-line import/no-extraneous-dependencies, import/no-unresolved
-import config from 'RESOLVE_CLIENT_CONFIG';
+// import config from 'RESOLVE_CLIENT_CONFIG';
+import config from '../resolve.client.config';
 
 const emptyRootComponent = () => (
     <div>No root component provided! Please set it in resolve.client.config.js</div>

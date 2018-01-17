@@ -65,7 +65,8 @@ const styles = {
   }),
   textInput: Styles.createTextInputStyle({
     borderWidth: 1,
-    borderColor: 'gray'
+    borderColor: 'gray',
+    width: 100
   })
 };
 
